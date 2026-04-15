@@ -264,6 +264,7 @@ display: inline-block;
     .yes-btn,
     .no-btn {
         width: 100px;
+        margin-top: -20px
     }
 
     .buttons {

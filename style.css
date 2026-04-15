@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "Tangerine";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://cdn.jsdelivr.net/fontsource/fonts/tangerine@latest/latin-400-normal.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/fontsource/fonts/tangerine@latest/latin-400-normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Tangerine";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("https://cdn.jsdelivr.net/fontsource/fonts/tangerine@latest/latin-700-normal.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/fontsource/fonts/tangerine@latest/latin-700-normal.woff") format("woff");
+}
 
 body {
     margin: 0;
@@ -6,17 +23,23 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("nature-bg.png");
-    font-family: "Pinyon Script", sans-serif;
+    font-family: "Tangerine", cursive;
     color: goldenrod;
 }
 
+.gallery p,
+#letter-title,
+.final-text {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+}
 /* carousel du début */
 .gallery {
     --d: 9s; /* duration */
     display: grid;
     width: 300px;
     overflow: visible;
-    font-size: 40px;
+    font-size: 65px;
     }
     .gallery > img {
     grid-area: 1/1;
@@ -138,7 +161,7 @@ body {
 
 #letter-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 40px;
     color: goldenrod;
 }
 
@@ -208,7 +231,7 @@ display: inline-block;
 }
 
 .final-text{
-    font-size: 22px;
+    font-size: 40px;
     line-height: 1.4;
     text-align: center;
     display: inline-block;
@@ -240,11 +263,12 @@ display: inline-block;
         max-height: 70%;
         overflow-y: visible;
         padding: 1.5rem;
-        margin-top: -50px;
+        margin-top: -60px;
+        margin-bottom: 10px;
     }
 
     #letter-title {
-        font-size: clamp(12px, 2.5vw, 31px);
+        font-size: clamp(20px, 2.5vw, 40px);
     }
 
     .letter-window.final .cat {
@@ -252,11 +276,12 @@ display: inline-block;
     }
     .gallery {
         width: 220px;
-        font-size: 35px;
+        font-size: 40px;
     }
     .final-text {
+        margin-top: -5px;
         padding: 0.2rem;
-        font-size: clamp(12px, 2.5vw, 31px);
+        font-size: clamp(20px, 2.5vw, 40px);
         line-height: 1.3;
     }
 
@@ -264,7 +289,6 @@ display: inline-block;
     .yes-btn,
     .no-btn {
         width: 100px;
-        margin-top: -30px
     }
 
     .buttons {

@@ -281,7 +281,7 @@ display: inline-block;
     .final-text {
         margin-top: -5px;
         padding: 0.2rem;
-        font-size: clamp(20px, 2.5vw, 40px);
+        font-size: clamp(30px, 2.5vw, 50px);
         line-height: 1.3;
     }
 

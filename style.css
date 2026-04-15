@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("nature-bg.png");
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Pinyon Script", sans-serif;
     color: goldenrod;
 }
 
@@ -71,10 +71,10 @@ body {
     }
 
     
-#gallery {
+/*#gallery {
     text-align: center;
     cursor:pointer;
-}
+}*/
 
 /* letter Screen */
 #letter-container{
@@ -252,7 +252,7 @@ display: inline-block;
     }
     .gallery {
         width: 220px;
-        font-size: 28px;
+        font-size: 35px;
     }
     .final-text {
         padding: 0.2rem;
@@ -264,7 +264,7 @@ display: inline-block;
     .yes-btn,
     .no-btn {
         width: 100px;
-        margin-top: -20px
+        margin-top: -30px
     }
 
     .buttons {

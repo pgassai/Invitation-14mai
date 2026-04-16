@@ -269,7 +269,7 @@ display: inline-block;
     }
 
     #letter-title {
-        font-size: clamp(12px, 2.5vw, 31px);
+        font-size: clamp(15px, 2.5vw, 31px);
     }
 
     .letter-window.final .cat {

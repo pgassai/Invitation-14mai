@@ -27,19 +27,21 @@ body {
     color: goldenrod;
 }
 
-.gallery p,
+/*.gallery p,
 #letter-title,
 .final-text {
     font-family: "Tangerine", cursive;
     font-weight: 700;
-}
+}*/
+
+
 /* carousel du début */
 .gallery {
     --d: 9s; /* duration */
     display: grid;
     width: 300px;
     overflow: visible;
-    font-size: 65px;
+    font-size: 40px;
     }
     .gallery > img {
     grid-area: 1/1;
@@ -231,7 +233,7 @@ display: inline-block;
 }
 
 .final-text{
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.4;
     text-align: center;
     display: inline-block;
@@ -268,7 +270,7 @@ display: inline-block;
     }
 
     #letter-title {
-        font-size: clamp(20px, 2.5vw, 40px);
+        font-size: clamp(12px, 2.5vw, 31px);
     }
 
     .letter-window.final .cat {
@@ -281,7 +283,7 @@ display: inline-block;
     .final-text {
         margin-top: -5px;
         padding: 0.2rem;
-        font-size: clamp(30px, 2.5vw, 50px);
+        font-size: clamp(12px, 2.5vw, 31px);
         line-height: 1.3;
     }
 

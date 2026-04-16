@@ -41,7 +41,7 @@ body {
     display: grid;
     width: 300px;
     overflow: visible;
-    font-size: 33px;
+    font-size: 31px;
     }
     .gallery > img {
     grid-area: 1/1;
@@ -96,10 +96,10 @@ body {
     }
 
     
-/*#gallery {
+#gallery {
     text-align: center;
     cursor:pointer;
-}*/
+}
 
 /* letter Screen */
 #letter-container{
@@ -259,7 +259,7 @@ display: inline-block;
 /* Responsive design for small screens */
 @media (max-width: 768px) {
     .letter-content {
-        width: 100%;
+        width: 90%;
         height: auto;
         min-height: 60%;
         max-height: 70%;

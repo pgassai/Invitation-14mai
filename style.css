@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("nature-bg.png");
-    font-family: "Tangerine", cursive;
+    /*font-family: "Tangerine", cursive;*/
     color: goldenrod;
 }
 

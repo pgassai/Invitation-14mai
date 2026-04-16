@@ -41,7 +41,7 @@ body {
     display: grid;
     width: 300px;
     overflow: visible;
-    font-size: 40px;
+    font-size: 33px;
     }
     .gallery > img {
     grid-area: 1/1;
@@ -266,11 +266,10 @@ display: inline-block;
         overflow-y: visible;
         padding: 1.5rem;
         margin-top: -60px;
-        margin-bottom: 10px;
     }
 
     #letter-title {
-        font-size: clamp(12px, 2.5vw, 31px);
+        font-size: clamp(18px, 2.5vw, 40px);
     }
 
     .letter-window.final .cat {
@@ -281,7 +280,6 @@ display: inline-block;
         font-size: 40px;
     }
     .final-text {
-        margin-top: -5px;
         padding: 0.2rem;
         font-size: clamp(12px, 2.5vw, 31px);
         line-height: 1.3;
